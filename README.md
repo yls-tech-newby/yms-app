@@ -1,29 +1,34 @@
 # yms-app
 
-## Project setup
+基于uni-app的yms移动端通用应用
+
+## 本地环境编译
+
+
+### h5版本：
 ```
-npm install
+npm run dev:h5
 ```
 
-### Compiles and hot-reloads for development
+### 支付宝小程序版本：
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run dev:mp-alipay
 ```
 
-### Run your tests
+### 百度小程序版本：
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run dev:mp-baidu
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 微信小程序版本：
+```
+npm run dev:mp-weixin
+```
+
+### 头条小程序版本：
+```
+npm run dev:mp-toutiao
+```
+
+## 编译安卓及ios app
+使用[HBuilderX](http://www.dcloud.io/hbuilderx.html)编译app
